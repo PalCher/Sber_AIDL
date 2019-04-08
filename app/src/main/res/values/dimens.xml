@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minWidth">200dp</dimen>
+    <dimen name="buttonMarg">100dp</dimen>
+    <dimen name="margText">100dp</dimen>
+</resources>

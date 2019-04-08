@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:name="com.nexp.pavel.sber_hm_aidl.FragmentWrite"
+        android:id="@+id/fragment_write"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </fragment>
+
+    <fragment
+        android:name="com.nexp.pavel.sber_hm_aidl.FragmentRead"
+        android:id="@+id/fragment_read"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </fragment>
+
+
+</LinearLayout>
